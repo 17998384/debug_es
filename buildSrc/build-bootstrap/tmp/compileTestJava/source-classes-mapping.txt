@@ -1,0 +1,34 @@
+org/elasticsearch/gradle/precommit/ForbiddenPatternsTaskTests.java
+ org.elasticsearch.gradle.precommit.ForbiddenPatternsTaskTests
+org/elasticsearch/gradle/precommit/DependencyLicensesTaskTests.java
+ org.elasticsearch.gradle.precommit.DependencyLicensesTaskTests
+ org.elasticsearch.gradle.precommit.DependencyLicensesTaskTests$1
+org/elasticsearch/gradle/docker/DockerSupportServiceTests.java
+ org.elasticsearch.gradle.docker.DockerSupportServiceTests
+org/elasticsearch/gradle/JdkDownloadPluginTests.java
+ org.elasticsearch.gradle.JdkDownloadPluginTests
+org/elasticsearch/gradle/checkstyle/SnipptLengthCheckTests.java
+ org.elasticsearch.gradle.checkstyle.SnipptLengthCheckTests
+org/elasticsearch/gradle/http/WaitForHttpResourceTests.java
+ org.elasticsearch.gradle.http.WaitForHttpResourceTests
+org/elasticsearch/gradle/precommit/UpdateShasTaskTests.java
+ org.elasticsearch.gradle.precommit.UpdateShasTaskTests
+ org.elasticsearch.gradle.precommit.UpdateShasTaskTests$1
+org/elasticsearch/gradle/precommit/FilePermissionsTaskTests.java
+ org.elasticsearch.gradle.precommit.FilePermissionsTaskTests
+org/elasticsearch/gradle/EmptyDirTaskTests.java
+ org.elasticsearch.gradle.EmptyDirTaskTests
+org/elasticsearch/gradle/VersionTests.java
+ org.elasticsearch.gradle.VersionTests
+org/elasticsearch/gradle/DistributionDownloadPluginTests.java
+ org.elasticsearch.gradle.DistributionDownloadPluginTests
+org/elasticsearch/gradle/plugin/PluginBuildPluginTests.java
+ org.elasticsearch.gradle.plugin.PluginBuildPluginTests
+org/elasticsearch/gradle/doc/RestTestFromSnippetsTaskTests.java
+ org.elasticsearch.gradle.doc.RestTestFromSnippetsTaskTests
+org/elasticsearch/gradle/ConcatFilesTaskTests.java
+ org.elasticsearch.gradle.ConcatFilesTaskTests
+org/elasticsearch/gradle/plugin/PluginPropertiesExtensionTests.java
+ org.elasticsearch.gradle.plugin.PluginPropertiesExtensionTests
+org/elasticsearch/gradle/BwcVersionsTests.java
+ org.elasticsearch.gradle.BwcVersionsTests

@@ -1,0 +1,237 @@
+org/elasticsearch/gradle/vagrant/VagrantExtension.java
+ org.elasticsearch.gradle.vagrant.VagrantExtension
+org/elasticsearch/gradle/test/rest/CopyRestApiTask.java
+ org.elasticsearch.gradle.test.rest.CopyRestApiTask
+org/elasticsearch/gradle/tar/SymbolicLinkPreservingTar.java
+ org.elasticsearch.gradle.tar.SymbolicLinkPreservingTar
+ org.elasticsearch.gradle.tar.SymbolicLinkPreservingTar$1
+ org.elasticsearch.gradle.tar.SymbolicLinkPreservingTar$SymbolicLinkPreservingTarCopyAction
+ org.elasticsearch.gradle.tar.SymbolicLinkPreservingTar$SymbolicLinkPreservingTarCopyAction$SymbolicLinkPreservingTarStreamAction
+org/elasticsearch/gradle/docker/DockerBuildTask.java
+ org.elasticsearch.gradle.docker.DockerBuildTask
+ org.elasticsearch.gradle.docker.DockerBuildTask$DockerBuildAction
+ org.elasticsearch.gradle.docker.DockerBuildTask$Parameters
+org/elasticsearch/gradle/Architecture.java
+ org.elasticsearch.gradle.Architecture
+org/elasticsearch/gradle/LazyPropertyList.java
+ org.elasticsearch.gradle.LazyPropertyList
+ org.elasticsearch.gradle.LazyPropertyList$PropertyListEntry
+org/elasticsearch/gradle/test/JNAKernel32Library.java
+ org.elasticsearch.gradle.test.JNAKernel32Library
+ org.elasticsearch.gradle.test.JNAKernel32Library$Holder
+org/elasticsearch/gradle/test/GradleDistroTestTask.java
+ org.elasticsearch.gradle.test.GradleDistroTestTask
+org/elasticsearch/gradle/testclusters/DefaultTestClustersTask.java
+ org.elasticsearch.gradle.testclusters.DefaultTestClustersTask
+org/elasticsearch/gradle/SimpleCommandLineArgumentProvider.java
+ org.elasticsearch.gradle.SimpleCommandLineArgumentProvider
+org/elasticsearch/gradle/test/rest/RestResourcesPlugin.java
+ org.elasticsearch.gradle.test.rest.RestResourcesPlugin
+org/elasticsearch/gradle/precommit/ForbiddenPatternsTask.java
+ org.elasticsearch.gradle.precommit.ForbiddenPatternsTask
+org/elasticsearch/gradle/precommit/JarHellTask.java
+ org.elasticsearch.gradle.precommit.JarHellTask
+org/elasticsearch/gradle/precommit/PrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.PrecommitPlugin
+ org.elasticsearch.gradle.precommit.PrecommitPlugin$PrecommitTaskPlugin
+org/elasticsearch/gradle/ElasticsearchJavaPlugin.java
+ org.elasticsearch.gradle.ElasticsearchJavaPlugin
+ org.elasticsearch.gradle.ElasticsearchJavaPlugin$1
+ org.elasticsearch.gradle.ElasticsearchJavaPlugin$2
+ org.elasticsearch.gradle.ElasticsearchJavaPlugin$TestFailureReportingPlugin
+ org.elasticsearch.gradle.ElasticsearchJavaPlugin$TestFailureReportingPlugin$1
+org/elasticsearch/gradle/testclusters/TestClustersAware.java
+ org.elasticsearch.gradle.testclusters.TestClustersAware
+org/elasticsearch/gradle/testclusters/TestClustersRegistry.java
+ org.elasticsearch.gradle.testclusters.TestClustersRegistry
+org/elasticsearch/gradle/precommit/CheckstylePrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.CheckstylePrecommitPlugin
+ org.elasticsearch.gradle.precommit.CheckstylePrecommitPlugin$1
+org/elasticsearch/gradle/precommit/DependencyLicensesPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.DependencyLicensesPrecommitPlugin
+org/elasticsearch/gradle/precommit/LoggerUsageTask.java
+ org.elasticsearch.gradle.precommit.LoggerUsageTask
+org/elasticsearch/gradle/LoggingOutputStream.java
+ org.elasticsearch.gradle.LoggingOutputStream
+org/elasticsearch/gradle/precommit/DependencyLicensesTask.java
+ org.elasticsearch.gradle.precommit.DependencyLicensesTask
+org/elasticsearch/gradle/LazyPropertyMap.java
+ org.elasticsearch.gradle.LazyPropertyMap
+ org.elasticsearch.gradle.LazyPropertyMap$PropertyMapEntry
+org/elasticsearch/gradle/ReaperPlugin.java
+ org.elasticsearch.gradle.ReaperPlugin
+org/elasticsearch/gradle/precommit/ForbiddenApisPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.ForbiddenApisPrecommitPlugin
+ org.elasticsearch.gradle.precommit.ForbiddenApisPrecommitPlugin$1
+ org.elasticsearch.gradle.precommit.ForbiddenApisPrecommitPlugin$2
+org/elasticsearch/gradle/precommit/FilePermissionsTask.java
+ org.elasticsearch.gradle.precommit.FilePermissionsTask
+org/elasticsearch/gradle/EnforceDeprecationFailuresPlugin.java
+ org.elasticsearch.gradle.EnforceDeprecationFailuresPlugin
+org/elasticsearch/gradle/precommit/ThirdPartyAuditPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.ThirdPartyAuditPrecommitPlugin
+org/elasticsearch/gradle/testfixtures/TestFixtureExtension.java
+ org.elasticsearch.gradle.testfixtures.TestFixtureExtension
+org/elasticsearch/gradle/EmptyDirTask.java
+ org.elasticsearch.gradle.EmptyDirTask
+org/elasticsearch/gradle/precommit/PomValidationPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.PomValidationPrecommitPlugin
+org/elasticsearch/gradle/vagrant/BatsProgressLogger.java
+ org.elasticsearch.gradle.vagrant.BatsProgressLogger
+org/elasticsearch/gradle/FileSupplier.java
+ org.elasticsearch.gradle.FileSupplier
+org/elasticsearch/gradle/plugin/PluginPropertiesExtension.java
+ org.elasticsearch.gradle.plugin.PluginPropertiesExtension
+org/elasticsearch/gradle/tar/SymoblicLinkPreservingTarPlugin.java
+ org.elasticsearch.gradle.tar.SymoblicLinkPreservingTarPlugin
+org/elasticsearch/gradle/ReaperService.java
+ org.elasticsearch.gradle.ReaperService
+org/elasticsearch/gradle/testclusters/RunTask.java
+ org.elasticsearch.gradle.testclusters.RunTask
+org/elasticsearch/gradle/vagrant/VagrantShellTask.java
+ org.elasticsearch.gradle.vagrant.VagrantShellTask
+org/elasticsearch/gradle/JdkDownloadPlugin.java
+ org.elasticsearch.gradle.JdkDownloadPlugin
+ org.elasticsearch.gradle.JdkDownloadPlugin$1
+org/elasticsearch/gradle/precommit/ValidateRestSpecPlugin.java
+ org.elasticsearch.gradle.precommit.ValidateRestSpecPlugin
+org/elasticsearch/gradle/testclusters/ElasticsearchCluster.java
+ org.elasticsearch.gradle.testclusters.ElasticsearchCluster
+org/elasticsearch/gradle/util/GradleUtils.java
+ org.elasticsearch.gradle.util.GradleUtils
+org/elasticsearch/gradle/util/Util.java
+ org.elasticsearch.gradle.util.Util
+ org.elasticsearch.gradle.util.Util$1
+org/elasticsearch/gradle/precommit/ValidateJsonAgainstSchemaTask.java
+ org.elasticsearch.gradle.precommit.ValidateJsonAgainstSchemaTask
+org/elasticsearch/gradle/util/JavaUtil.java
+ org.elasticsearch.gradle.util.JavaUtil
+org/elasticsearch/gradle/checkstyle/SnippetLengthCheck.java
+ org.elasticsearch.gradle.checkstyle.SnippetLengthCheck
+ org.elasticsearch.gradle.checkstyle.SnippetLengthCheck$LineItr
+org/elasticsearch/gradle/precommit/LoggerUsagePrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.LoggerUsagePrecommitPlugin
+org/elasticsearch/gradle/docker/DockerSupportService.java
+ org.elasticsearch.gradle.docker.DockerSupportService
+ org.elasticsearch.gradle.docker.DockerSupportService$DockerAvailability
+ org.elasticsearch.gradle.docker.DockerSupportService$Parameters
+ org.elasticsearch.gradle.docker.DockerSupportService$Result
+org/elasticsearch/gradle/DistributionDownloadPlugin.java
+ org.elasticsearch.gradle.DistributionDownloadPlugin
+ org.elasticsearch.gradle.DistributionDownloadPlugin$1
+org/elasticsearch/gradle/ConcatFilesTask.java
+ org.elasticsearch.gradle.ConcatFilesTask
+org/elasticsearch/gradle/testclusters/TestClustersException.java
+ org.elasticsearch.gradle.testclusters.TestClustersException
+org/elasticsearch/gradle/SystemPropertyCommandLineArgumentProvider.java
+ org.elasticsearch.gradle.SystemPropertyCommandLineArgumentProvider
+org/elasticsearch/gradle/testclusters/ElasticsearchNode.java
+ org.elasticsearch.gradle.testclusters.ElasticsearchNode
+ org.elasticsearch.gradle.testclusters.ElasticsearchNode$CliEntry
+ org.elasticsearch.gradle.testclusters.ElasticsearchNode$FileEntry
+org/elasticsearch/gradle/Jdk.java
+ org.elasticsearch.gradle.Jdk
+ org.elasticsearch.gradle.Jdk$1
+ org.elasticsearch.gradle.Jdk$2
+org/elasticsearch/gradle/PublishPlugin.java
+ org.elasticsearch.gradle.PublishPlugin
+ org.elasticsearch.gradle.PublishPlugin$1
+org/elasticsearch/gradle/info/GlobalBuildInfoPlugin.java
+ org.elasticsearch.gradle.info.GlobalBuildInfoPlugin
+ org.elasticsearch.gradle.info.GlobalBuildInfoPlugin$GitInfo
+org/elasticsearch/gradle/precommit/UpdateShasTask.java
+ org.elasticsearch.gradle.precommit.UpdateShasTask
+org/elasticsearch/gradle/test/RestIntegTestTask.java
+ org.elasticsearch.gradle.test.RestIntegTestTask
+org/elasticsearch/gradle/precommit/PrecommitTask.java
+ org.elasticsearch.gradle.precommit.PrecommitTask
+org/elasticsearch/gradle/test/InternalClusterTestPlugin.java
+ org.elasticsearch.gradle.test.InternalClusterTestPlugin
+org/elasticsearch/gradle/test/rest/CopyRestTestsTask.java
+ org.elasticsearch.gradle.test.rest.CopyRestTestsTask
+org/elasticsearch/gradle/testclusters/RestTestRunnerTask.java
+ org.elasticsearch.gradle.testclusters.RestTestRunnerTask
+org/elasticsearch/gradle/test/ErrorReportingTestListener.java
+ org.elasticsearch.gradle.test.ErrorReportingTestListener
+ org.elasticsearch.gradle.test.ErrorReportingTestListener$1
+ org.elasticsearch.gradle.test.ErrorReportingTestListener$Descriptor
+ org.elasticsearch.gradle.test.ErrorReportingTestListener$EventWriter
+org/elasticsearch/gradle/precommit/TestingConventionsTasks.java
+ org.elasticsearch.gradle.precommit.TestingConventionsTasks
+ org.elasticsearch.gradle.precommit.TestingConventionsTasks$1
+org/elasticsearch/gradle/test/DistroTestPlugin.java
+ org.elasticsearch.gradle.test.DistroTestPlugin
+ org.elasticsearch.gradle.test.DistroTestPlugin$1
+org/elasticsearch/gradle/ExportElasticsearchBuildResourcesTask.java
+ org.elasticsearch.gradle.ExportElasticsearchBuildResourcesTask
+org/elasticsearch/gradle/ElasticsearchDistribution.java
+ org.elasticsearch.gradle.ElasticsearchDistribution
+ org.elasticsearch.gradle.ElasticsearchDistribution$1
+ org.elasticsearch.gradle.ElasticsearchDistribution$Extracted
+ org.elasticsearch.gradle.ElasticsearchDistribution$Flavor
+ org.elasticsearch.gradle.ElasticsearchDistribution$Platform
+ org.elasticsearch.gradle.ElasticsearchDistribution$Type
+org/elasticsearch/gradle/AbstractLazyPropertyCollection.java
+ org.elasticsearch.gradle.AbstractLazyPropertyCollection
+org/elasticsearch/gradle/precommit/TestingConventionRule.java
+ org.elasticsearch.gradle.precommit.TestingConventionRule
+org/elasticsearch/gradle/precommit/FilePermissionsPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.FilePermissionsPrecommitPlugin
+org/elasticsearch/gradle/testclusters/TestClustersPlugin.java
+ org.elasticsearch.gradle.testclusters.TestClustersPlugin
+ org.elasticsearch.gradle.testclusters.TestClustersPlugin$TestClustersHookPlugin
+ org.elasticsearch.gradle.testclusters.TestClustersPlugin$TestClustersHookPlugin$1
+ org.elasticsearch.gradle.testclusters.TestClustersPlugin$TestClustersHookPlugin$2
+org/elasticsearch/gradle/precommit/LicenseAnalyzer.java
+ org.elasticsearch.gradle.precommit.LicenseAnalyzer
+ org.elasticsearch.gradle.precommit.LicenseAnalyzer$LicenseInfo
+ org.elasticsearch.gradle.precommit.LicenseAnalyzer$LicenseMatcher
+org/elasticsearch/gradle/testclusters/TestDistribution.java
+ org.elasticsearch.gradle.testclusters.TestDistribution
+org/elasticsearch/gradle/test/rest/RestResourcesExtension.java
+ org.elasticsearch.gradle.test.rest.RestResourcesExtension
+ org.elasticsearch.gradle.test.rest.RestResourcesExtension$RestResourcesSpec
+org/elasticsearch/gradle/testfixtures/TestFixturesPlugin.java
+ org.elasticsearch.gradle.testfixtures.TestFixturesPlugin
+ org.elasticsearch.gradle.testfixtures.TestFixturesPlugin$1
+org/elasticsearch/gradle/precommit/JarHellPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.JarHellPrecommitPlugin
+org/elasticsearch/gradle/vagrant/VagrantBasePlugin.java
+ org.elasticsearch.gradle.vagrant.VagrantBasePlugin
+ org.elasticsearch.gradle.vagrant.VagrantBasePlugin$VagrantManagerPlugin
+ org.elasticsearch.gradle.vagrant.VagrantBasePlugin$VagrantSetupCheckerPlugin
+org/elasticsearch/gradle/PropertyNormalization.java
+ org.elasticsearch.gradle.PropertyNormalization
+org/elasticsearch/gradle/tar/SymbolicLinkPreservingUntarTask.java
+ org.elasticsearch.gradle.tar.SymbolicLinkPreservingUntarTask
+org/elasticsearch/gradle/vagrant/VagrantMachine.java
+ org.elasticsearch.gradle.vagrant.VagrantMachine
+ org.elasticsearch.gradle.vagrant.VagrantMachine$ProgressOutputStream
+ org.elasticsearch.gradle.vagrant.VagrantMachine$VagrantExecSpec
+org/elasticsearch/gradle/test/BatsTestTask.java
+ org.elasticsearch.gradle.test.BatsTestTask
+org/elasticsearch/gradle/vagrant/VagrantProgressLogger.java
+ org.elasticsearch.gradle.vagrant.VagrantProgressLogger
+org/elasticsearch/gradle/docker/DockerSupportPlugin.java
+ org.elasticsearch.gradle.docker.DockerSupportPlugin
+org/elasticsearch/gradle/dependencies/CompileOnlyResolvePlugin.java
+ org.elasticsearch.gradle.dependencies.CompileOnlyResolvePlugin
+org/elasticsearch/gradle/precommit/PomValidationTask.java
+ org.elasticsearch.gradle.precommit.PomValidationTask
+org/elasticsearch/gradle/http/WaitForHttpResource.java
+ org.elasticsearch.gradle.http.WaitForHttpResource
+org/elasticsearch/gradle/testfixtures/DockerComposeThrottle.java
+ org.elasticsearch.gradle.testfixtures.DockerComposeThrottle
+org/elasticsearch/gradle/precommit/ForbiddenPatternsPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.ForbiddenPatternsPrecommitPlugin
+org/elasticsearch/gradle/testclusters/TestClustersThrottle.java
+ org.elasticsearch.gradle.testclusters.TestClustersThrottle
+org/elasticsearch/gradle/OS.java
+ org.elasticsearch.gradle.OS
+ org.elasticsearch.gradle.OS$Conditional
+org/elasticsearch/gradle/precommit/TestingConventionsPrecommitPlugin.java
+ org.elasticsearch.gradle.precommit.TestingConventionsPrecommitPlugin
+org/elasticsearch/gradle/testclusters/TestClusterConfiguration.java
+ org.elasticsearch.gradle.testclusters.TestClusterConfiguration
+org/elasticsearch/gradle/precommit/ThirdPartyAuditTask.java
+ org.elasticsearch.gradle.precommit.ThirdPartyAuditTask
