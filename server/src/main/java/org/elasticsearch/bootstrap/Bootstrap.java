@@ -196,7 +196,7 @@ final class Bootstrap {
                 public void run() {
                     try {
                         IOUtils.close(node, spawner);
-                        LoggerContext context = (LoggerContext) LogManager.getContext(false);
+                        LoggerContext context = new LoggerContext("BUG");
                         Configurator.shutdown(context);
                         if (node != null && node.awaitClose(10, TimeUnit.SECONDS) == false) {
                             throw new IllegalStateException(

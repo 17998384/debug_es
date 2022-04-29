@@ -53,12 +53,12 @@
 # By default Elasticsearch is only accessible on localhost. Set a different
 # address here to expose this node on the network:
 #
-#network.host: 192.168.0.1
+network.host: 0.0.0.0
 #
 # By default Elasticsearch listens for HTTP traffic on the first free port it
 # finds starting at 9200. Set a specific HTTP port here:
 #
-#http.port: 9200
+http.port: 9200
 #
 # For more information, consult the network module documentation.
 #
@@ -71,7 +71,7 @@
 #
 # Bootstrap the cluster using an initial set of master-eligible nodes:
 #
-#cluster.initial_master_nodes: ["node-1", "node-2"]
+cluster.initial_master_nodes: ["node-1"]
 #
 # For more information, consult the discovery and cluster formation module documentation.
 #
@@ -90,7 +90,10 @@
 # This means that users don’t have to provide credentials and can get full access
 # to the cluster. Network connections are also not encrypted.
 #
-# To protect your data, we strongly encourage you to enable the Elasticsearch security features. 
+# To protect your data, we strongly encourage you to enable the Elasticsearch security features.
 # Refer to the following documentation for instructions.
 #
 # https://www.elastic.co/guide/en/elasticsearch/reference/7.16/configuring-stack-security.html
+xpack.ml.enabled: false
+http.cors.enabled: true
+http.cors.allow-origin: "*"

@@ -139,7 +139,7 @@ public class Loggers {
     }
 
     public static void removeAppender(final Logger logger, final Appender appender) {
-        final LoggerContext ctx = (LoggerContext) LogManager.getContext(false);
+        final LoggerContext ctx = new LoggerContext("BUG");
         final Configuration config = ctx.getConfiguration();
         LoggerConfig loggerConfig = config.getLoggerConfig(logger.getName());
         if (logger.getName().equals(loggerConfig.getName()) == false) {
